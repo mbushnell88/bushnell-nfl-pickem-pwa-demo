@@ -16,14 +16,16 @@ This is a **self-contained portfolio demonstration** built to help discuss a rea
 - The commissioner controls demonstrate business logic, **not** real authentication or server-side policy enforcement.
 - No third-party JavaScript frameworks, APIs, analytics, external assets, or remote calls are used.
 
+[Open the published Sunday Pick’em demo](https://mbushnell88.github.io/bushnell-nfl-pickem-pwa-demo/)
+
 ## What to explore
 
-1. **Overview:** Explain the customer need, player experience, and commissioner workflow.
+1. **Home:** Check the current week, sample prize pool, last week’s winner, and season leaders.
 2. **My Picks:** Select teams, choose a tiebreaker, save a browser-local entry.
 3. **Standings:** Review fictional ranked players and percent correct.
-4. **Weekly Recaps:** Compare two fixed sample archive cards to the interactive Week 12 recap.
-5. **Commissioner Preview:** Lock sample picks, calculate fictional outcomes, and archive a sample week. Observe the log of each action.
-6. **Technical Walkthrough:** Discuss requirements translation, user testing, issue ownership, and the boundaries of GitHub/DevOps experience.
+4. **History:** Compare two fixed sample archive cards to the interactive Week 12 recap.
+5. **Commissioner:** Lock sample picks, calculate fictional outcomes, and archive a sample week. Observe the log of each action.
+6. **Walkthrough:** Discuss requirements translation, user testing, issue ownership, and the boundaries of GitHub/DevOps experience.
 
 ## Run locally
 
@@ -35,7 +37,7 @@ For local web serving, run `python3 -m http.server 8080` in this folder and visi
 
 This package is ready for any static file host. Upload `index.html`, `styles.css`, and `app.js` to a static host or GitHub Pages repository. If using GitHub Pages, keep the source code **public only if you are comfortable sharing this standalone sample**. Never publish the production app's credentials or user data.
 
-A live URL is **not provided** with this archive; deploying it is a separate step. Do not describe the original league's source as already being on GitHub.
+The public demo is published from the root of this repository’s `main` branch.
 
 ## Honest experience statement
 
